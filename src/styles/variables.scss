@@ -1,0 +1,50 @@
+// base color
+$blue: #324157;
+$light-blue: #3a71a8;
+$red: #c03639;
+$pink: #e65d6e;
+$green: #30b08f;
+$tiffany: #4ab7bd;
+$yellow: #fec171;
+$panGreen: #30b08f;
+
+// sidebar
+$menuBg: #fff;
+$menuText: rgba(52, 53, 56, 1);
+
+$menuHoverText: #fff;
+$menuHoverBg: #557af2;
+$menuActiveText: #557af2;
+$menuActiveBg: #fff;
+
+// $menuActiveText: #fff;
+// $menuActive: rgba(85, 122, 242, 1);
+
+// $menuHoverText: #fff;
+// $menuHover: rgba(85, 122, 242, 1);
+
+// $subMenuBg: #fff;
+// $subMenuHover: rgba(85, 122, 242, 1);
+// $subMenuActiveText: #fff;
+// $subMenuActive: rgba(85, 122, 242, 1);
+
+$logoMenuBg: #093754;
+$sideBarWidth: 280px;
+
+:export {
+  menuBg: $menuBg;
+  menuText: $menuText;
+  menuHoverText: $menuHoverText;
+  menuHoverBg: $menuHoverBg;
+  menuActiveText: $menuActiveText;
+  menuActiveBg: $menuActiveBg;
+
+  // menuActiveText: $menuActiveText;
+  // subMenuActiveText: $subMenuActiveText;
+  // menuHover: $menuHover;
+  // subMenuBg: $subMenuBg;
+  // subMenuHover: $subMenuHover;
+
+  logoMenuBg: $logoMenuBg;
+  sideBarWidth: $sideBarWidth;
+}
